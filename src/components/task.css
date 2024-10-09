@@ -1,0 +1,31 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-item.completed .task-name {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
+  .task-name {
+    flex-grow: 1;
+    font-size: 1.2em;
+  }
+  
+  .task-delete-button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-delete-button:hover {
+    background-color: darkred;
+  }

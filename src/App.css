@@ -24,4 +24,19 @@ h2 {
   list-style: none;
   padding: 0;
 }
+.filter-buttons {
+  margin: 10px 0;
+}
+
+.filter-buttons button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background-color: #007bff;
+  color: white;
+}
 
